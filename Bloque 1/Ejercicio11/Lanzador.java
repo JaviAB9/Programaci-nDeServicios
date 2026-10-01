@@ -1,5 +1,3 @@
-package Ejercicio11;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
@@ -10,7 +8,7 @@ public class Lanzador {
         try {
             System.out.println("Soy la clase principal");
 
-            String java = System.getProperty("java.home") + File.separator + "bin" + File.separator;
+            String java = System.getProperty("java.home") + File.separator + "bin" + File.separator + "java";
             String cp = System.getProperty("java.class.path");
 
             //Lanzar la clase Saludo en un maquina virtual nueva

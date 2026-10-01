@@ -1,5 +1,3 @@
-package Ejercicio11;
-
 /*
 Clase hija del ejercicio11: la lanza Lanzador en otro proceso
 */
